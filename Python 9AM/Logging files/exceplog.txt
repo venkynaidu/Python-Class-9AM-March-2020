@@ -1,0 +1,22 @@
+INFO:root:A new request came:
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:/Users/venky/OneDrive/Desktop/Python 9AM/Logging files/exception log.py", line 8, in <module>
+    print(a/b)
+ZeroDivisionError: division by zero
+INFO:root:Request processing is completed:
+INFO:root:A new request came:
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "C:/Users/venky/OneDrive/Desktop/Python 9AM/Logging files/exception log.py", line 7, in <module>
+    b=int(input("Enter b value:"))
+ValueError: invalid literal for int() with base 10: 'ten'
+INFO:root:Request processing is completed:
+INFO:root:A new request came:
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "C:/Users/venky/OneDrive/Desktop/Python 9AM/Logging files/exception log.py", line 6, in <module>
+    a=int(input("Enter a value::"))
+ValueError: invalid literal for int() with base 10: 'ten'
+INFO:root:Request processing is completed:
+
