@@ -1,0 +1,6 @@
+f=open("madhavi.txt","r")
+print(f.tell())
+print(f.read(2))
+print(f.tell())
+print(f.read(10))
+print(f.tell())
